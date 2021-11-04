@@ -1,0 +1,175 @@
+body {
+  height: 100vh;
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 20px;
+  font-size: 18px;
+  color: #E5E7EB;
+  display: flex;
+  list-style-type: none;
+  gap: 12px;
+}
+
+button {
+  background-color: #3882F6;
+  color: white;
+  border-radius: 8px;
+}
+
+a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+img {
+  padding: 20px;
+  width: 300px;
+  height: inherit;
+}
+
+.header {
+  padding: 0 20px;
+  font-size: 24px;
+  color: #F9FAF8;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+  color: #F9FAF8;
+}
+
+.main button {
+  border-color: #3882F6;
+  border: none;
+  padding: 5px 20px;
+  font-weight: bold;
+  margin: 10px 0px 0px 0px;
+}
+
+.content .main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.content .text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.info {
+  padding: 20px;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  text-align: center;
+  padding: 25px;
+}
+
+.info .text {
+  text-align: center;
+}
+
+.infoimg {
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  height: inherit;
+  border-radius: 10px;
+  border: solid #3882F6;
+}
+
+.bubbles {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 20px;
+}
+
+.container {
+  justify-content: center;
+}
+
+
+.quote-box {
+  padding: 20px;
+  background-color: #e5e7eb;
+  color: #1F2937;
+}
+
+.quote {
+  padding: 20px;
+  text-align: left;
+  background-color: #e5e7eb;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.kratos {
+  font-weight: bold;
+  text-align: right;
+  font-size: 18px;
+}
+
+.holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  padding: 20px;
+}
+
+.call {
+  font-weight: bold;
+}
+
+.sign {
+  font-weight: lighter;
+}
+
+.action {
+  max-width: 600px;
+  max-height: 200px;
+  border-radius: 5px;
+  padding: 20px 50px;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882F6;
+}
+
+.action button {
+  border: solid white;
+  border-width: thin;
+  padding: 0 20px;
+}
+
+.footer {
+  padding: 20px;
+  justify-content: center;
+  font-weight: lighter;
+}
+
+.header, .main, .action, .footer {
+  color: white;
+}
+
+.header, .main, .footer {
+  background-color: #1F2937;
+  display: flex;
+}
