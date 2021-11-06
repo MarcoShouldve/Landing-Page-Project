@@ -41,6 +41,10 @@ img {
   justify-content: space-between;
 }
 
+#header, #wrapper1 {
+  background-color: #1F2937;
+}
+
 .main {
   margin: 0 auto;
   max-width: 1080px;
@@ -72,6 +76,10 @@ img {
   padding: 20px;
   margin: 0 auto;
   max-width: 1080px;
+}
+
+#wrapper3 {
+  background-color: #e5e7eb;
 }
 
 .info-header {
@@ -177,12 +185,4 @@ img {
 .header, .main, .footer {
   background-color: #1F2937;
   display: flex;
-}
-
-#header, #wrapper1 {
-  background-color: #1F2937;
-}
-
-#wrapper3 {
-  background-color: #e5e7eb;
 }
