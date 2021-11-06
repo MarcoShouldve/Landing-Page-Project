@@ -1,8 +1,7 @@
 body {
   height: 100vh;
-  font-family: Montserrat, sans-serif;
   margin: 0;
-  padding: 0;
+  font-family: Montserrat, sans-serif;
 }
 
 ul {
@@ -34,6 +33,8 @@ img {
 
 .header {
   padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1080px;
   font-size: 24px;
   color: #F9FAF8;
   align-items: center;
@@ -41,10 +42,11 @@ img {
 }
 
 .main {
+  margin: 0 auto;
+  max-width: 1080px;
   display: flex;
   justify-content: center;
   padding: 50px 20px;
-  color: #F9FAF8;
 }
 
 .main button {
@@ -68,6 +70,8 @@ img {
 
 .info {
   padding: 20px;
+  margin: 0 auto;
+  max-width: 1080px;
 }
 
 .info-header {
@@ -85,7 +89,7 @@ img {
 .infoimg {
   margin: 0;
   padding: 0;
-  width: 150px;
+  width: 200px;
   height: inherit;
   border-radius: 10px;
   border: solid #3882F6;
@@ -95,7 +99,7 @@ img {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 8px;
   padding: 20px;
 }
 
@@ -105,8 +109,9 @@ img {
 
 
 .quote-box {
+  max-width: 1080px;
+  margin: 0 auto;
   padding: 20px;
-  background-color: #e5e7eb;
   color: #1F2937;
 }
 
@@ -143,7 +148,7 @@ img {
 }
 
 .action {
-  max-width: 600px;
+  max-width: 1080px;
   max-height: 200px;
   border-radius: 5px;
   padding: 20px 50px;
@@ -172,4 +177,12 @@ img {
 .header, .main, .footer {
   background-color: #1F2937;
   display: flex;
+}
+
+#header, #wrapper1 {
+  background-color: #1F2937;
+}
+
+#wrapper3 {
+  background-color: #e5e7eb;
 }
